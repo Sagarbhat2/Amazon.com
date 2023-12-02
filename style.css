@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly; /** it will gives the equal space between each boxes or elements **/
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    background-size:cover;
+    height:50px;
+    width:100px;
+    padding-bottom:8px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** box2**/
+.add-first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    
+}
+.add-sec{
+    font-size:1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+.nav-search{
+    display:flex;
+    background-color: pink;
+    justify-content: space-evenly;
+    width:620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.search-select{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-icon{
+    width: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size:24px;
+    background-color: rgba(197, 197, 21, 0.613);
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+/* box 4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box6 */
+.nav-cart i{
+    font-size:30px
+}
+
+/* pannel */
+.panel{
+    height:40px;
+    background-color:#222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content:space-evenly; /** it is used to display the data in horizontally **/
+}
+.panel-opt p{
+    display:inline;
+    margin-left:15px;
+
+}
+.panel-opt{
+    width:70%;
+    font: size 0.85rem;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:700;
+}
+/* hero */
+.hero{
+    background-image:url("hero_image.jpg");
+    background-size: cover;
+    height:320px;
+    width:1350px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.hero-mes{
+    background-color: white;
+    color:black;
+    height: 30px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+    width:1050px;
+}
+.hero-mes a{
+color:blue;
+}
+
+/* box shop sec */
+.box{
+    height: 300px;
+    border:2px solid white;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+
+}
+.shoping-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box-img{
+    height: 250px;
+    background-size:cover; /**this is used to stop the repeated imgs pic and cover it all */
+    margin-top: 1 rem;
+    margin-bottom: 0.8rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.box-content p{
+    color:#007185;
+}
+.foot-panel1{
+    text-align: center;
+    background-color: #0f1111bc;
+    color:white;
+    width:100%;
+    font-size:15px;
+}
+.customer-cont{
+    height:300px;
+    width:100%;
+    background-color:#232f2e;
+    color:white;    
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.about-us,.contact,.money{
+    margin-top:60px;    
+}
+#get,#con,#mon{
+    margin-bottom:10px;
+}
+.about-us p,.contact p,.money p{
+    margin-top:5px;
+    font-size: 14px;
+    color:#DDDDDD;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color:white;
+    border-top: 0.5px solid white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    background-size:cover;
+    height: 50px;
+    width:100px;
+   
+}
+.foot-panel4{
+    height:40px;
+    width:100%;
+    background-color: black;
+    color:white;
+    justify-content:space-evenly;
+    text-align: center;
+    font-size: 15px;
+}
+.p5{
+    text-align: center;
+    padding-top:0.8px;
+}
+.offer-box{
+    height:300px;
+    width:100%;
+}
+.box-img1{
+    height:200px;
+    width:100%;
+    
+}
